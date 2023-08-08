@@ -1,1 +1,5 @@
 /* write your css here */
+.CodeMirror{
+    background-color: silver !important;
+    height: 200px !important;
+}

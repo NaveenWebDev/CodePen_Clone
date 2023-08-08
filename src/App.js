@@ -1,11 +1,13 @@
 import "./App.css";
-import Header from "./Components/Header";
-import Code from "./Components/Code";
+import Home from "./Components/Home";
+import DataProvider from "./Context/DataProvider";
+
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Code></Code>
+    <DataProvider>
+      <Home />
+    </DataProvider>
     </div>
   )
 }

@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Header from './Header'
+import Code from './Code'
 const Home = () => {
   return (
     <div>
-      jfsladfjl
+      <Header></Header>
+      <Code></Code>
     </div>
   )
 }
